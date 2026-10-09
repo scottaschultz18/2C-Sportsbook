@@ -39,7 +39,7 @@ function nextFriday8CT(){let now=new Date();let f=new Intl.DateTimeFormat('en-US
  * 3) Deploy the companion Edge Function and set TWO_CIRCLES_ADMIN_SECRET server-side.
  * The anon key is intended to be public; NEVER put the service_role key or admin secret in this HTML.
  */
-window.TWO_CIRCLES_SUPABASE_URL = window.TWO_CIRCLES_SUPABASE_URL || "";
+window.TWO_CIRCLES_SUPABASE_URL = window.TWO_CIRCLES_SUPABASE_URL || "https://vduesgdwsoailfxjxskb.supabase.co/rest/v1/";
 window.TWO_CIRCLES_SUPABASE_ANON_KEY = window.TWO_CIRCLES_SUPABASE_ANON_KEY || "";
 window.TWO_CIRCLES_ADMIN_FUNCTION_URL = window.TWO_CIRCLES_ADMIN_FUNCTION_URL || "";
 let supabaseClient = null;
